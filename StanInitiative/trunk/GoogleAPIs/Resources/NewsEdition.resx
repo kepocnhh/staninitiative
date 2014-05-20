@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Arab_World" xml:space="preserve">
+    <value>ar_me</value>
+  </data>
+  <data name="Argentina" xml:space="preserve">
+    <value>es_ar</value>
+  </data>
+  <data name="Australia" xml:space="preserve">
+    <value>au</value>
+  </data>
+  <data name="Austria" xml:space="preserve">
+    <value>de_at</value>
+  </data>
+  <data name="Belgium_Dutch" xml:space="preserve">
+    <value>nl_be</value>
+  </data>
+  <data name="Belgium_French" xml:space="preserve">
+    <value>fr_be</value>
+  </data>
+  <data name="Botswana_English" xml:space="preserve">
+    <value>en_bw</value>
+  </data>
+  <data name="Brazil" xml:space="preserve">
+    <value>es_br</value>
+  </data>
+  <data name="Canada_English" xml:space="preserve">
+    <value>ca</value>
+  </data>
+  <data name="Canada_French" xml:space="preserve">
+    <value>fr_ca</value>
+  </data>
+  <data name="Chile" xml:space="preserve">
+    <value>es_cl</value>
+  </data>
+  <data name="China" xml:space="preserve">
+    <value>cn</value>
+  </data>
+  <data name="Colombia" xml:space="preserve">
+    <value>es_co</value>
+  </data>
+  <data name="Cuba" xml:space="preserve">
+    <value>es_cu</value>
+  </data>
+  <data name="Czech" xml:space="preserve">
+    <value>cs_cz</value>
+  </data>
+  <data name="Egypt" xml:space="preserve">
+    <value>ar_eg</value>
+  </data>
+  <data name="Ethiopia_English" xml:space="preserve">
+    <value>en_et</value>
+  </data>
+  <data name="France" xml:space="preserve">
+    <value>fr</value>
+  </data>
+  <data name="Germany" xml:space="preserve">
+    <value>de</value>
+  </data>
+  <data name="Ghana_English" xml:space="preserve">
+    <value>en_gh</value>
+  </data>
+  <data name="Holland" xml:space="preserve">
+    <value>nl_nl</value>
+  </data>
+  <data name="Hong_Kong" xml:space="preserve">
+    <value>hk</value>
+  </data>
+  <data name="Hungary" xml:space="preserve">
+    <value>hu</value>
+  </data>
+  <data name="India" xml:space="preserve">
+    <value>in</value>
+  </data>
+  <data name="Indonesia" xml:space="preserve">
+    <value>id</value>
+  </data>
+  <data name="Ireland_English" xml:space="preserve">
+    <value>en_ie</value>
+  </data>
+  <data name="Israel_English" xml:space="preserve">
+    <value>en_il</value>
+  </data>
+  <data name="Israel_Hebrew" xml:space="preserve">
+    <value>iw_il</value>
+  </data>
+  <data name="Italy" xml:space="preserve">
+    <value>it</value>
+  </data>
+  <data name="Japan" xml:space="preserve">
+    <value>jp</value>
+  </data>
+  <data name="Kenya_English" xml:space="preserve">
+    <value>ke</value>
+  </data>
+  <data name="Korea" xml:space="preserve">
+    <value>kr</value>
+  </data>
+  <data name="KSA" xml:space="preserve">
+    <value>ar_sa</value>
+  </data>
+  <data name="Lebanon" xml:space="preserve">
+    <value>ar_lb</value>
+  </data>
+  <data name="Malaysia_English" xml:space="preserve">
+    <value>en_my</value>
+  </data>
+  <data name="Mexico" xml:space="preserve">
+    <value>es_mx</value>
+  </data>
+  <data name="Namibia_English" xml:space="preserve">
+    <value>en_na</value>
+  </data>
+  <data name="New_Zealand" xml:space="preserve">
+    <value>nz</value>
+  </data>
+  <data name="Nigeria" xml:space="preserve">
+    <value>en_ng</value>
+  </data>
+  <data name="Norway" xml:space="preserve">
+    <value>no_no</value>
+  </data>
+  <data name="Pakistan_English" xml:space="preserve">
+    <value>en_pk</value>
+  </data>
+  <data name="Peru" xml:space="preserve">
+    <value>es_pe</value>
+  </data>
+  <data name="Philippines_English" xml:space="preserve">
+    <value>en_ph</value>
+  </data>
+  <data name="Poland" xml:space="preserve">
+    <value>pl_pl</value>
+  </data>
+  <data name="Portugal" xml:space="preserve">
+    <value>pt-PT_pt</value>
+  </data>
+  <data name="Russia" xml:space="preserve">
+    <value>ru_ru</value>
+  </data>
+  <data name="Senegal_French" xml:space="preserve">
+    <value>fr_sn</value>
+  </data>
+  <data name="Singapore_English" xml:space="preserve">
+    <value>en_sg</value>
+  </data>
+  <data name="Spain" xml:space="preserve">
+    <value>es</value>
+  </data>
+  <data name="Sweden" xml:space="preserve">
+    <value>sv_se</value>
+  </data>
+  <data name="Switzerland_German" xml:space="preserve">
+    <value>de_ch</value>
+  </data>
+  <data name="Taiwan" xml:space="preserve">
+    <value>tw</value>
+  </data>
+  <data name="Tanzania_English" xml:space="preserve">
+    <value>en_tz</value>
+  </data>
+  <data name="Thailand" xml:space="preserve">
+    <value>th</value>
+  </data>
+  <data name="Turkey" xml:space="preserve">
+    <value>tr_tr</value>
+  </data>
+  <data name="UAE" xml:space="preserve">
+    <value>ar_ae</value>
+  </data>
+  <data name="Uganda_English" xml:space="preserve">
+    <value>en_ug</value>
+  </data>
+  <data name="Ukraine_Russian" xml:space="preserve">
+    <value>ru_ua</value>
+  </data>
+  <data name="Ukraine_Ukraine" xml:space="preserve">
+    <value>uk_ua</value>
+  </data>
+  <data name="United_Kingdom" xml:space="preserve">
+    <value>uk</value>
+  </data>
+  <data name="United_States" xml:space="preserve">
+    <value>us</value>
+  </data>
+  <data name="United_States_Spanish" xml:space="preserve">
+    <value>es_us</value>
+  </data>
+  <data name="Venezuela" xml:space="preserve">
+    <value>es_ve</value>
+  </data>
+  <data name="Vietnam" xml:space="preserve">
+    <value>vi_vn</value>
+  </data>
+  <data name="Zimbabwe_English" xml:space="preserve">
+    <value>en_zw</value>
+  </data>
+</root>

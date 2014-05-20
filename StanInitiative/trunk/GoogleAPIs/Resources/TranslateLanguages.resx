@@ -1,0 +1,441 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="AFRIKAANS" xml:space="preserve">
+  <value>af</value>
+</data>
+<data name="ALBANIAN" xml:space="preserve">
+  <value>sq</value>
+</data>
+<data name="AMHARIC" xml:space="preserve">
+  <value>am</value>
+</data>
+<data name="ARABIC" xml:space="preserve">
+  <value>ar</value>
+</data>
+<data name="ARMENIAN" xml:space="preserve">
+  <value>hy</value>
+</data>
+<data name="AZERBAIJANI" xml:space="preserve">
+  <value>az</value>
+</data>
+<data name="BASQUE" xml:space="preserve">
+  <value>eu</value>
+</data>
+<data name="BELARUSIAN" xml:space="preserve">
+  <value>be</value>
+</data>
+<data name="BENGALI" xml:space="preserve">
+  <value>bn</value>
+</data>
+<data name="BIHARI" xml:space="preserve">
+  <value>bh</value>
+</data>
+<data name="BRETON" xml:space="preserve">
+  <value>br</value>
+</data>
+<data name="BULGARIAN" xml:space="preserve">
+  <value>bg</value>
+</data>
+<data name="BURMESE" xml:space="preserve">
+  <value>my</value>
+</data>
+<data name="CATALAN" xml:space="preserve">
+  <value>ca</value>
+</data>
+<data name="CHEROKEE" xml:space="preserve">
+  <value>chr</value>
+</data>
+<data name="CHINESE" xml:space="preserve">
+  <value>zh</value>
+</data>
+<data name="CHINESE_SIMPLIFIED" xml:space="preserve">
+  <value>zh-CN</value>
+</data>
+<data name="CHINESE_TRADITIONAL" xml:space="preserve">
+  <value>zh-TW</value>
+</data>
+<data name="CORSICAN" xml:space="preserve">
+  <value>co</value>
+</data>
+<data name="CROATIAN" xml:space="preserve">
+  <value>hr</value>
+</data>
+<data name="CZECH" xml:space="preserve">
+  <value>cs</value>
+</data>
+<data name="DANISH" xml:space="preserve">
+  <value>da</value>
+</data>
+<data name="DHIVEHI" xml:space="preserve">
+  <value>dv</value>
+</data>
+<data name="DUTCH" xml:space="preserve">
+  <value>nl</value>
+</data>
+<data name="ENGLISH" xml:space="preserve">
+  <value>en</value>
+</data>
+<data name="ESPERANTO" xml:space="preserve">
+  <value>eo</value>
+</data>
+<data name="ESTONIAN" xml:space="preserve">
+  <value>et</value>
+</data>
+<data name="FAROESE" xml:space="preserve">
+  <value>fo</value>
+</data>
+<data name="FILIPINO" xml:space="preserve">
+  <value>tl</value>
+</data>
+<data name="FINNISH" xml:space="preserve">
+  <value>fi</value>
+</data>
+<data name="FRENCH" xml:space="preserve">
+  <value>fr</value>
+</data>
+<data name="FRISIAN" xml:space="preserve">
+  <value>fy</value>
+</data>
+<data name="GALICIAN" xml:space="preserve">
+  <value>gl</value>
+</data>
+<data name="GEORGIAN" xml:space="preserve">
+  <value>ka</value>
+</data>
+<data name="GERMAN" xml:space="preserve">
+  <value>de</value>
+</data>
+<data name="GREEK" xml:space="preserve">
+  <value>el</value>
+</data>
+<data name="GUJARATI" xml:space="preserve">
+  <value>gu</value>
+</data>
+<data name="HAITIAN_CREOLE" xml:space="preserve">
+  <value>ht</value>
+</data>
+<data name="HEBREW" xml:space="preserve">
+  <value>iw</value>
+</data>
+<data name="HINDI" xml:space="preserve">
+  <value>hi</value>
+</data>
+<data name="HUNGARIAN" xml:space="preserve">
+  <value>hu</value>
+</data>
+<data name="ICELANDIC" xml:space="preserve">
+  <value>is</value>
+</data>
+<data name="INDONESIAN" xml:space="preserve">
+  <value>id</value>
+</data>
+<data name="INUKTITUT" xml:space="preserve">
+  <value>iu</value>
+</data>
+<data name="IRISH" xml:space="preserve">
+  <value>ga</value>
+</data>
+<data name="ITALIAN" xml:space="preserve">
+  <value>it</value>
+</data>
+<data name="JAPANESE" xml:space="preserve">
+  <value>ja</value>
+</data>
+<data name="JAVANESE" xml:space="preserve">
+  <value>jw</value>
+</data>
+<data name="KANNADA" xml:space="preserve">
+  <value>kn</value>
+</data>
+<data name="KAZAKH" xml:space="preserve">
+  <value>kk</value>
+</data>
+<data name="KHMER" xml:space="preserve">
+  <value>km</value>
+</data>
+<data name="KOREAN" xml:space="preserve">
+  <value>ko</value>
+</data>
+<data name="KURDISH" xml:space="preserve">
+  <value>ku</value>
+</data>
+<data name="KYRGYZ" xml:space="preserve">
+  <value>ky</value>
+</data>
+<data name="LAO" xml:space="preserve">
+  <value>lo</value>
+</data>
+<data name="LATIN" xml:space="preserve">
+  <value>la</value>
+</data>
+<data name="LATVIAN" xml:space="preserve">
+  <value>lv</value>
+</data>
+<data name="LITHUANIAN" xml:space="preserve">
+  <value>lt</value>
+</data>
+<data name="LUXEMBOURGISH" xml:space="preserve">
+  <value>lb</value>
+</data>
+<data name="MACEDONIAN" xml:space="preserve">
+  <value>mk</value>
+</data>
+<data name="MALAY" xml:space="preserve">
+  <value>ms</value>
+</data>
+<data name="MALAYALAM" xml:space="preserve">
+  <value>ml</value>
+</data>
+<data name="MALTESE" xml:space="preserve">
+  <value>mt</value>
+</data>
+<data name="MAORI" xml:space="preserve">
+  <value>mi</value>
+</data>
+<data name="MARATHI" xml:space="preserve">
+  <value>mr</value>
+</data>
+<data name="MONGOLIAN" xml:space="preserve">
+  <value>mn</value>
+</data>
+<data name="NEPALI" xml:space="preserve">
+  <value>ne</value>
+</data>
+<data name="NORWEGIAN" xml:space="preserve">
+  <value>no</value>
+</data>
+<data name="OCCITAN" xml:space="preserve">
+  <value>oc</value>
+</data>
+<data name="ORIYA" xml:space="preserve">
+  <value>or</value>
+</data>
+<data name="PASHTO" xml:space="preserve">
+  <value>ps</value>
+</data>
+<data name="PERSIAN" xml:space="preserve">
+  <value>fa</value>
+</data>
+<data name="POLISH" xml:space="preserve">
+  <value>pl</value>
+</data>
+<data name="PORTUGUESE" xml:space="preserve">
+  <value>pt</value>
+</data>
+<data name="PORTUGUESE_PORTUGAL" xml:space="preserve">
+  <value>pt-PT</value>
+</data>
+<data name="PUNJABI" xml:space="preserve">
+  <value>pa</value>
+</data>
+<data name="QUECHUA" xml:space="preserve">
+  <value>qu</value>
+</data>
+<data name="ROMANIAN" xml:space="preserve">
+  <value>ro</value>
+</data>
+<data name="RUSSIAN" xml:space="preserve">
+  <value>ru</value>
+</data>
+<data name="SANSKRIT" xml:space="preserve">
+  <value>sa</value>
+</data>
+<data name="SCOTS_GAELIC" xml:space="preserve">
+  <value>gd</value>
+</data>
+<data name="SERBIAN" xml:space="preserve">
+  <value>sr</value>
+</data>
+<data name="SINDHI" xml:space="preserve">
+  <value>sd</value>
+</data>
+<data name="SINHALESE" xml:space="preserve">
+  <value>si</value>
+</data>
+<data name="SLOVAK" xml:space="preserve">
+  <value>sk</value>
+</data>
+<data name="SLOVENIAN" xml:space="preserve">
+  <value>sl</value>
+</data>
+<data name="SPANISH" xml:space="preserve">
+  <value>es</value>
+</data>
+<data name="SUNDANESE" xml:space="preserve">
+  <value>su</value>
+</data>
+<data name="SWAHILI" xml:space="preserve">
+  <value>sw</value>
+</data>
+<data name="SWEDISH" xml:space="preserve">
+  <value>sv</value>
+</data>
+<data name="SYRIAC" xml:space="preserve">
+  <value>syr</value>
+</data>
+<data name="TAJIK" xml:space="preserve">
+  <value>tg</value>
+</data>
+<data name="TAMIL" xml:space="preserve">
+  <value>ta</value>
+</data>
+<data name="TATAR" xml:space="preserve">
+  <value>tt</value>
+</data>
+<data name="TELUGU" xml:space="preserve">
+  <value>te</value>
+</data>
+<data name="THAI" xml:space="preserve">
+  <value>th</value>
+</data>
+<data name="TIBETAN" xml:space="preserve">
+  <value>bo</value>
+</data>
+<data name="TONGA" xml:space="preserve">
+  <value>to</value>
+</data>
+<data name="TURKISH" xml:space="preserve">
+  <value>tr</value>
+</data>
+<data name="UKRAINIAN" xml:space="preserve">
+  <value>uk</value>
+</data>
+<data name="URDU" xml:space="preserve">
+  <value>ur</value>
+</data>
+<data name="UZBEK" xml:space="preserve">
+  <value>uz</value>
+</data>
+<data name="UIGHUR" xml:space="preserve">
+  <value>ug</value>
+</data>
+<data name="VIETNAMESE" xml:space="preserve">
+  <value>vi</value>
+</data>
+<data name="WELSH" xml:space="preserve">
+  <value>cy</value>
+</data>
+<data name="YIDDISH" xml:space="preserve">
+  <value>yi</value>
+</data>
+<data name="YORUBA" xml:space="preserve">
+  <value>yo</value>
+</data>
+</root>

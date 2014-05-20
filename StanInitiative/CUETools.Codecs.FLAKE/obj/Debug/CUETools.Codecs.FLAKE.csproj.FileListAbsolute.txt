@@ -1,0 +1,10 @@
+C:\Users\Kiker\Documents\Visual Studio 2012\Projects\Speach\bin\Debug\plugins\CUETools.Codecs.FLAKE.dll
+C:\Users\Kiker\Documents\Visual Studio 2012\Projects\Speach\bin\Debug\plugins\CUETools.Codecs.FLAKE.pdb
+C:\Users\Kiker\Documents\Visual Studio 2012\Projects\Speach\bin\Debug\plugins\ru-RU\CUETools.Codecs.FLAKE.resources.dll
+C:\Users\Kiker\Documents\Visual Studio 2012\Projects\Speach\CUETools.Codecs.FLAKE\obj\Debug\CUETools.Codecs.FLAKE.csprojResolveAssemblyReference.cache
+C:\Users\Kiker\Documents\Visual Studio 2012\Projects\Speach\CUETools.Codecs.FLAKE\obj\Debug\CUETools.Codecs.FLAKE.Properties.Resources.resources
+C:\Users\Kiker\Documents\Visual Studio 2012\Projects\Speach\CUETools.Codecs.FLAKE\obj\Debug\CUETools.Codecs.FLAKE.Properties.Resources.ru-RU.resources
+C:\Users\Kiker\Documents\Visual Studio 2012\Projects\Speach\CUETools.Codecs.FLAKE\obj\Debug\CUETools.Codecs.FLAKE.csproj.GenerateResource.Cache
+C:\Users\Kiker\Documents\Visual Studio 2012\Projects\Speach\CUETools.Codecs.FLAKE\obj\Debug\ru-RU\CUETools.Codecs.FLAKE.resources.dll
+C:\Users\Kiker\Documents\Visual Studio 2012\Projects\Speach\CUETools.Codecs.FLAKE\obj\Debug\CUETools.Codecs.FLAKE.dll
+C:\Users\Kiker\Documents\Visual Studio 2012\Projects\Speach\CUETools.Codecs.FLAKE\obj\Debug\CUETools.Codecs.FLAKE.pdb

@@ -1,0 +1,17 @@
+C:\Users\submarinemegabat\Documents\Visual Studio 2010\Projects\StanInitiative\StanInitiative\bin\Debug\StanInitiative.exe
+C:\Users\submarinemegabat\Documents\Visual Studio 2010\Projects\StanInitiative\StanInitiative\bin\Debug\StanInitiative.pdb
+C:\Users\submarinemegabat\Documents\Visual Studio 2010\Projects\StanInitiative\StanInitiative\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\submarinemegabat\Documents\Visual Studio 2010\Projects\StanInitiative\StanInitiative\obj\x86\Debug\StanInitiative.Form1.resources
+C:\Users\submarinemegabat\Documents\Visual Studio 2010\Projects\StanInitiative\StanInitiative\obj\x86\Debug\StanInitiative.Properties.Resources.resources
+C:\Users\submarinemegabat\Documents\Visual Studio 2010\Projects\StanInitiative\StanInitiative\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\submarinemegabat\Documents\Visual Studio 2010\Projects\StanInitiative\StanInitiative\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\submarinemegabat\Documents\Visual Studio 2010\Projects\StanInitiative\StanInitiative\obj\x86\Debug\StanInitiative.exe
+C:\Users\submarinemegabat\Documents\Visual Studio 2010\Projects\StanInitiative\StanInitiative\obj\x86\Debug\StanInitiative.pdb
+E:\VS13\VS13_Prjcts\StanInitiative\StanInitiative\obj\x86\Debug\StanInitiative.exe
+E:\VS13\VS13_Prjcts\StanInitiative\StanInitiative\obj\x86\Debug\StanInitiative.pdb
+E:\VS13\VS13_Prjcts\StanInitiative\StanInitiative\bin\Debug\StanInitiative.exe
+E:\VS13\VS13_Prjcts\StanInitiative\StanInitiative\bin\Debug\StanInitiative.pdb
+E:\VS13\VS13_Prjcts\StanInitiative\StanInitiative\obj\x86\Debug\StanInitiative.csprojResolveAssemblyReference.cache
+E:\VS13\VS13_Prjcts\StanInitiative\StanInitiative\obj\x86\Debug\StanInitiative.Form1.resources
+E:\VS13\VS13_Prjcts\StanInitiative\StanInitiative\obj\x86\Debug\StanInitiative.Properties.Resources.resources
+E:\VS13\VS13_Prjcts\StanInitiative\StanInitiative\obj\x86\Debug\StanInitiative.csproj.GenerateResource.Cache

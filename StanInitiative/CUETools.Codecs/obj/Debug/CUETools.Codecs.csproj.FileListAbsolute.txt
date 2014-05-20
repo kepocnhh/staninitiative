@@ -1,0 +1,5 @@
+C:\Users\Kiker\Documents\Visual Studio 2012\Projects\Speach\bin\Debug\CUETools.Codecs.dll
+C:\Users\Kiker\Documents\Visual Studio 2012\Projects\Speach\bin\Debug\CUETools.Codecs.pdb
+C:\Users\Kiker\Documents\Visual Studio 2012\Projects\Speach\CUETools.Codecs\obj\Debug\CUETools.Codecs.csprojResolveAssemblyReference.cache
+C:\Users\Kiker\Documents\Visual Studio 2012\Projects\Speach\CUETools.Codecs\obj\Debug\CUETools.Codecs.dll
+C:\Users\Kiker\Documents\Visual Studio 2012\Projects\Speach\CUETools.Codecs\obj\Debug\CUETools.Codecs.pdb

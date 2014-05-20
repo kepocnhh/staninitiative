@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{02FB118B-2847-49D7-BEBE-7A15D8BC3A6E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GoogleSearchAPI</RootNamespace>
+    <AssemblyName>GoogleSearchDotnet</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <DocumentationFile>bin\Debug\GoogleSearchDotnet.XML</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=3.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>3rd Party\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="GoogleService.cs" />
+    <Compile Include="IGoogleService.cs" />
+    <Compile Include="Query\Parameters\BaseQuery.cs" />
+    <Compile Include="Query\Parameters\BookQueryParameters.cs" />
+    <Compile Include="Query\Parameters\TranslateQueryParameters.cs" />
+    <Compile Include="Query\Parameters\PatentQueryParameters.cs" />
+    <Compile Include="Query\Parameters\NewsQueryParameters.cs" />
+    <Compile Include="Query\Parameters\LocalCoordinate.cs" />
+    <Compile Include="Query\Parameters\LocalQueryParameters.cs" />
+    <Compile Include="Query\Parameters\ImageQueryParameters.cs" />
+    <Compile Include="Query\Parameters\TranslateQuery.cs" />
+    <Compile Include="Query\Parameters\WebQueryParameters.cs" />
+    <Compile Include="Query\Parameters\ImageQuery.cs" />
+    <Compile Include="Query\Parameters\LocalQuery.cs" />
+    <Compile Include="Query\Parameters\VideoQuery.cs" />
+    <Compile Include="Query\Parameters\BlogQuery.cs" />
+    <Compile Include="Query\Parameters\NewsQuery.cs" />
+    <Compile Include="Query\Parameters\BookQuery.cs" />
+    <Compile Include="Query\Parameters\PatentQuery.cs" />
+    <Compile Include="Query\Parameters\GoogleQueryConsts.cs" />
+    <Compile Include="Query\Parameters\Interfaces\BaseQueryParameter.cs" />
+    <Compile Include="Query\Parameters\Interfaces\IQueryParameter.cs" />
+    <Compile Include="Query\Parameters\QueryParameterEnums.cs" />
+    <Compile Include="Query\Parameters\GeneralQueryParameters.cs" />
+    <Compile Include="Query\Parameters\WebQuery.cs" />
+    <Compile Include="Query\Results\Implementation\GoogleBlogResult.cs" />
+    <Compile Include="Query\Results\Implementation\GoogleBookResult.cs" />
+    <Compile Include="Query\Results\Implementation\GoogleImageResult.cs" />
+    <Compile Include="Query\Results\Implementation\GoogleLocalResult.cs" />
+    <Compile Include="Query\Results\Implementation\GoogleNewsResult.cs" />
+    <Compile Include="Query\Results\Implementation\GooglePatentResult.cs" />
+    <Compile Include="Query\Results\Implementation\Cursor.cs" />
+    <Compile Include="Query\Results\Implementation\GoogleResultSet.cs" />
+    <Compile Include="Query\Results\Implementation\GoogleVideoResult.cs" />
+    <Compile Include="Query\Results\Implementation\GoogleWebResult.cs" />
+    <Compile Include="Query\Results\Implementation\Page.cs" />
+    <Compile Include="Query\Results\Interfaces\ICursor.cs" />
+    <Compile Include="Query\Results\Interfaces\IGoogleBlogResult.cs" />
+    <Compile Include="Query\Results\Interfaces\IGoogleBookResult.cs" />
+    <Compile Include="Query\Results\Interfaces\IGoogleImageResult.cs" />
+    <Compile Include="Query\Results\Interfaces\IGoogleLocalResult.cs" />
+    <Compile Include="Query\Results\Interfaces\IGoogleNewsResult.cs" />
+    <Compile Include="Query\Results\Interfaces\IGooglePatentResult.cs" />
+    <Compile Include="Query\Results\Interfaces\IGoogleResult.cs" />
+    <Compile Include="Query\Results\Interfaces\IGoogleResultSet.cs" />
+    <Compile Include="Query\Results\Interfaces\IGoogleVideoResult.cs" />
+    <Compile Include="Query\Results\Interfaces\IGoogleWebResult.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Query\Parameters\Interfaces\IGoogleQuery.cs" />
+    <Compile Include="Query\Results\Interfaces\IPage.cs" />
+    <Compile Include="Resources\CountryCode.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CountryCode.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Languages.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Languages.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\NewsEdition.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>NewsEdition.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\TranslateLanguages.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TranslateLanguages.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="3rd Party\Newtonsoft.Json.dll" />
+    <Content Include="README.txt" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\CountryCode.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>CountryCode.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Languages.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Languages.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\NewsEdition.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>NewsEdition.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\TranslateLanguages.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>TranslateLanguages.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
