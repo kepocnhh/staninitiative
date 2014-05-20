@@ -15,6 +15,7 @@ namespace StanInitiative
         Paths shp = new Paths();
         Funk shf = new Funk();
         Comands shc;
+        int aaaaa;
         private string ans = null;
         private List<byte[]> btsm;
         object LockObj = new object();
